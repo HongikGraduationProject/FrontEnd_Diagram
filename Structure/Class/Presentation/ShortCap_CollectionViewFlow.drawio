@@ -1,0 +1,79 @@
+<mxfile host="Electron" modified="2024-05-06T06:11:29.236Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="y923ftL3UXONeC7XHGjl" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="Rd9RkOavLUlvvC3WeqRp">
+    <mxGraphModel dx="1912" dy="1055" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kdiKpYZDmEk7tjso6Kv4-1" target="kdiKpYZDmEk7tjso6Kv4-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-1" value="fetchList" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kdiKpYZDmEk7tjso6Kv4-2" target="kdiKpYZDmEk7tjso6Kv4-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-2" value="[VideoIndentity]&lt;br&gt;(Hashable)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kdiKpYZDmEk7tjso6Kv4-10" target="kdiKpYZDmEk7tjso6Kv4-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-10" value="디테일 획득" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kdiKpYZDmEk7tjso6Kv4-13" target="kdiKpYZDmEk7tjso6Kv4-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-13" value="썸네일 획득" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kdiKpYZDmEk7tjso6Kv4-17" target="kdiKpYZDmEk7tjso6Kv4-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-17" value="SnapShot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="780" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kdiKpYZDmEk7tjso6Kv4-20" target="kdiKpYZDmEk7tjso6Kv4-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-20" value="Relay(scan사용축적)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-7" value="[VideoCellViewModel]&lt;br&gt;(Hashable)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kdiKpYZDmEk7tjso6Kv4-20">
+          <mxGeometry x="20" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kdiKpYZDmEk7tjso6Kv4-22" target="kdiKpYZDmEk7tjso6Kv4-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-22" value="apply" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="860" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-24" value="add Cell&lt;br&gt;(smoothly)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="940" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-26" value="Relay" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kdiKpYZDmEk7tjso6Kv4-31" target="kdiKpYZDmEk7tjso6Kv4-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-31" value="zip" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="530" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-36" value="VideoCellViewModel" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kdiKpYZDmEk7tjso6Kv4-37" target="kdiKpYZDmEk7tjso6Kv4-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-37" value="새롭게 등록된 Identities 추출" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kdiKpYZDmEk7tjso6Kv4-40" value="scan을 사용함으로써&lt;br&gt;새로운 데이터만 추가되어 아이템이 emit된다.&lt;br&gt;UI와 로컬 저장소가 일치되게 된다." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="650" width="240" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
